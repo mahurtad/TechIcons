@@ -9,11 +9,13 @@
     tools:showIn="@layout/activity_icon">
 
     <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
         android:layout_margin="1dp"
         app:cardCornerRadius="4dp"
-        android:id="@+id/personCardView">
+        android:id="@+id/personCardView"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -24,41 +26,56 @@
                 android:layout_height="240dp"
                 android:src="@drawable/manuel"
                 android:id="@+id/pictureImageView"/>
+
             <LinearLayout
+                android:id="@+id/btnVermapa"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:orientation="vertical">
+
                 <TextView
+                    android:id="@+id/nameTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
                     android:text="@string/name_steve_jobs"
-                    android:gravity="center_horizontal"
-                    android:textStyle="bold"
                     android:textSize="18dp"
-                    android:id="@+id/nameTextView"/>
+                    android:textStyle="bold" />
+
                 <TextView
+                    android:id="@+id/titleTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
                     android:text="@string/title_former_ceo_and_founder"
-                    android:gravity="center_horizontal"
-                    android:textStyle="bold"
-                    android:id="@+id/titleTextView"/>
+                    android:textStyle="bold" />
+
                 <TextView
+                    android:id="@+id/companyTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
                     android:text="@string/company_apple"
-                    android:gravity="center_horizontal"
-                    android:textStyle="bold"
-                    android:id="@+id/companyTextView"/>
+                    android:textStyle="bold" />
+
                 <TextView
+                    android:id="@+id/bioTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/bio_steve_jobs"
-                    android:gravity="center_horizontal"
                     android:layout_marginTop="10dp"
-                    android:id="@+id/bioTextView"/>
+                    android:gravity="center_horizontal"
+                    android:text="@string/bio_steve_jobs" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ver mapa" />
+
             </LinearLayout>
+
+
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
