@@ -13,6 +13,11 @@
     <string name="company_apple">Apple, Inc.</string>
     <string name="company_oracle">Oracle Corp.</string>
     <string name="company_facebook">Facebook, Inc.</string>
+    <string name="service_microsoft">Venta de PCs y Surfaces</string>
+    <string name="service_apple">Venta de MACs</string>
+    <string name="service_oracle">Software consulting</string>
+    <string name="service_facebook">Asesoria empresarial</string>
+
     <string name="bio_bill_gates">Manuel Hurtado built the
 world\'s largest software business, Microsoft.</string>
     <string name="bio_larry_ellison">Marco Silverio \"Larry\" Ellison (born August
