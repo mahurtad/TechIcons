@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TechIcons</string>
+    <string name="app_name">MyCustomers</string>
     <string name="action_settings">Settings</string>
     <string name="name_bill_gates">Manuel Hurtado Alzamora </string>
     <string name="name_larry_ellison">Marco Silverio Castro</string>
