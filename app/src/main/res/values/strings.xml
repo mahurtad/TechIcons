@@ -17,10 +17,10 @@
     <string name="service_apple">Venta de MACs</string>
     <string name="service_oracle">Software consulting</string>
     <string name="service_facebook">Asesoria empresarial</string>
-    <string name="bio_bill_gates">Direccion : Av.Victor Andres Belaunde 147, Vía Principal 123, Torre Real 1, Piso 3, Via Principal 123, San Isidro Lima 27 </string>
-    <string name="bio_larry_ellison">Direccion : Piso 7 Oficina 704, Edificio Cronos Torre 2, El Derby 55, Santiago de Surco Lima 33</string>
+    <string name="bio_bill_gates">Direccion: Av.Victor Andres Belaunde 147, Vía Principal 123, Torre Real 1, Piso 3, Via Principal 123, San Isidro Lima 27 </string>
+    <string name="bio_larry_ellison">Direccion: Piso 7 Oficina 704, Edificio Cronos Torre 2, El Derby 55, Santiago de Surco Lima 33</string>
     <string name="bio_mark_zuckerberg">Direccion : 1601 S California Ave; Palo Alto, California. </string>
     <string name="bio_steve_jobs">Direccion : Infinite Loop, Cupertino, California, 95014</string>
-    <string name="title_activity_icon">Direccion :</string>
+    <string name="title_activity_icon">About Client</string>
     <string name="title_activity_maps">Map</string>
 </resources>
