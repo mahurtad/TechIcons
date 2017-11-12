@@ -17,21 +17,8 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    public Button buttonmap;
-    public void init()
-    {
-        buttonmap=(Button)findViewById(R.id.btnVermapa);
-        buttonmap.setOnClickListener(new View.OnClickListener(){
 
 
-            @Override
-            public void onClick(View v) {
-                Intent toy = new Intent(MainActivity.this,MapsActivity.class);
-                startActivity(toy);
-            }
-        });
-
-    }
 
     @Override
 
@@ -39,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         List<Person> people;
@@ -53,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
         peopleRecyclerView = (RecyclerView) findViewById(R.id.peopleRecyclerView);
         peopleRecyclerView.setLayoutManager(peopleLayoutManager);
         peopleRecyclerView.setAdapter(peopleAdapter);
+
+
 
     }
 
